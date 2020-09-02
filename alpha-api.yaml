@@ -1,0 +1,12 @@
+# alpha-api.yaml
+---
+apiVersion: "stable.patricelabs.com/v1"
+kind: API
+metadata:
+  name: alpha-api
+spec:
+  metadata:
+    owner: Patrice
+  swagger:
+    info:
+      title: Alhpa API

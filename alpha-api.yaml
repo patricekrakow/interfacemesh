@@ -10,3 +10,10 @@ spec:
   swagger:
     info:
       title: Alhpa API
+    host: acme-api
+    paths:
+      _template: "/path-01"
+      get:
+        responses:
+          "200":
+            description: OK

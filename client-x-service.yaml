@@ -1,0 +1,12 @@
+# client-x-service.yaml
+---
+apiVersion: "stable.patricelabs.com/v1"
+kind: Microservice
+metadata:
+  name: client-x-service
+spec:
+  name: client-x
+  subscriptions:
+    - method: get
+      host: acme-api
+      pathTemplate: /path-01

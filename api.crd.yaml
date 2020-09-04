@@ -39,20 +39,20 @@ spec:
                       type: string
                     paths:
                       type: object
-                      properties:
-                        _template:
-                          type: string
-                        get:
-                          type: object
-                          properties:
-                            responses:
-                              type: object
-                              properties:
-                                "200":
-                                  type: object
-                                  properties:
-                                    description:
-                                      type: string
+                      additionalProperties:
+                        type: object
+                        properties:
+                          get:
+                            type: object
+                            properties:
+                              responses:
+                                type: object
+                                properties:
+                                  "200":
+                                    type: object
+                                    properties:
+                                      description:
+                                        type: string
   # either Namespaced or Cluster
   scope: Namespaced
   names:

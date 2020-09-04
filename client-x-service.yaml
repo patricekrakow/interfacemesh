@@ -1,6 +1,6 @@
 # client-x-service.yaml
 ---
-apiVersion: "stable.patricelabs.com/v1"
+apiVersion: "stable.patricelabs.io/v1alpha1"
 kind: Microservice
 metadata:
   name: client-x-service

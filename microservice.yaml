@@ -4,13 +4,13 @@ apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
   # name must match the spec fields below, and be in the form: <plural>.<group>
-  name: microservices.stable.patricelabs.com
+  name: microservices.stable.patricelabs.io
 spec:
   # group name to use for REST API: /apis/<group>/<version>
-  group: stable.patricelabs.com
+  group: stable.patricelabs.io
   # list of versions supported by this CustomResourceDefinition
   versions:
-    - name: v1
+    - name: v1alpha1
       # Each version can be enabled/disabled by Served flag.
       served: true
       # One and only one version must be marked as the storage version.

@@ -2,6 +2,10 @@
 
 If you treat the APIs (interfaces) as 1st class citizens in your Service Mesh configuration, you get an Interface Mesh ;-)
 
+## Prerequisites
+
+[Playing with Kubernetes CRD](https://github.com/patricekrakow/learning-stuff/blob/master/playing-with-Kubernetes-CRD/playing-with-Kubernetes-CRD.md)
+
 ## API Resource
 
 **API Group:** stable.patricelabs.io

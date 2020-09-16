@@ -46,9 +46,12 @@ metadata:
 spec:
   name: client-x
   subscriptions:
-    - method: get
-      host: acme-api
-      pathTemplate: /path-01
+    - kind: API
+      name: alpha-api
+      apiEndpoints:
+        - method: get
+          host: acme-api
+          pathTemplate: /path-01
 ```
 
 ## References
